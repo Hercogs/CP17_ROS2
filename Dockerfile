@@ -34,7 +34,7 @@ RUN git clone https://github.com/Hercogs/CP16_ROS2.git
 
 # build
 WORKDIR /ros2_ws
-RUN /bin/bash -c "source /opt/ros/galactic/setup.bash && colcon build"
+RUN /bin/bash -c "source /opt/ros/galactic/setup.bash && colcon build --packages-skip tortoisebot_control"
 
 # replace setup.bash in ros_entrypoint.sh
 RUN sed -i 's|source "/opt/ros/\$ROS_DISTRO/setup.bash"|source "/ros2_ws/install/setup.bash"|g' /ros_entrypoint.sh
