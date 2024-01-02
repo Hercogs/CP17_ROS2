@@ -5,7 +5,7 @@
 
 1. Start Jenkins:
     - execute: `. ~/webpage_ws/start_jenkins.sh`
-    - In `~/webpage_ws/jenkins__pid__url.txt` copy Jenkins URL and open in browser
+    - In `~/jenkins__pid__url.txt` copy Jenkins URL and open in browser
     - log in using username `admin` and password `admin`
 
 2. Modify `ros2_ci` repo:

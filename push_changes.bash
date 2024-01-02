@@ -1,5 +1,7 @@
 #! /bin/bash
 
+cd /home/user/ros2_ws/src/ros2_ci
+
 echo "Test" >> /home/user/ros2_ws/src/ros2_ci/push_changes.txt
 
 git add .
