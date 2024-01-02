@@ -11,6 +11,7 @@
 2. Modify `ros2_ci` repo:
     - execute `. ~/ros2_ws/src/ros2_ci/push_changes.bash` command
     - when asked for git credentials, copy them from "~/catkin_ws/src/git.txt"
+    - Wait up to 1 minutes
 
 3. Monitor Jenkins:
     - In Jenkin open task **CP17_ROS2** and verify results.
