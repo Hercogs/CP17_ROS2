@@ -1,4 +1,4 @@
-# CP17_ROS1
+# CP17_ROS2
 
 0. Start docker:
     - execute: `. ~/ros2_ws/src/ros2_ci/docker.bash`
