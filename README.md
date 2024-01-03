@@ -1,9 +1,9 @@
 # CP17_ROS2
 
-0. Start docker:
+0. Start docker: (skip, if already is running from Task1)
     - execute: `. ~/ros2_ws/src/ros2_ci/docker.bash`
 
-1. Start Jenkins:
+1. Start Jenkins: (skip, if already is running from Task1)
     - execute: `. ~/webpage_ws/start_jenkins.sh`
     - In `~/jenkins__pid__url.txt` copy Jenkins URL and open in browser
     - log in using username `admin` and password `admin`
